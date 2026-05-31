@@ -1,0 +1,77 @@
+{
+  "name": "Malena Salgado Martín",
+  "tagline": "Comunicadora Audiovisual · Dirección Artística",
+  "location": "Madrid",
+  "portrait": "assets/img/about/malena.webp",
+  "bio": [
+    "Profesional del ámbito audiovisual apasionada por contar historias y formar parte de proyectos creativos. Me entusiasma trabajar con equipos diversos, aportar ideas con sensibilidad visual y seguir creciendo en cada experiencia dentro del sector.",
+    "Sobre todo me interesa la creación visual de universos y el desarrollo de los mismos. Mi trabajo se mueve entre la dirección de arte para cine, los videoclips, la publicidad y la composición de imagen fija."
+  ],
+  "manifesto": "Creo en las imágenes que se quedan a vivir contigo después del fundido en negro.",
+  "references": [
+    "Eloy de la Iglesia",
+    "José Luis Cuerda",
+    "Carlos Saura",
+    "Pedro Almodóvar"
+  ],
+  "education": [
+    {
+      "title": "Máster en Dirección Artística en cine",
+      "institution": "The Core Entertainment School",
+      "period": "2025 — Actualidad"
+    },
+    {
+      "title": "Máster de Guion de ficción para cine y televisión",
+      "institution": "Universidad Pontificia de Salamanca (UPSA)",
+      "period": "2023 — 2024"
+    },
+    {
+      "title": "Grado en Comunicación Audiovisual",
+      "institution": "Universidad Pontificia de Salamanca (UPSA)",
+      "period": "2019 — 2023"
+    }
+  ],
+  "complementaryEducation": [
+    { "title": "Curso sobre narrativas fílmicas como herramienta de reflexión", "institution": "Uex", "year": "2026" },
+    { "title": "Introducción a la dirección de producción audiovisual", "institution": "RTVE Instituto", "year": "2024" },
+    { "title": "El rol del showrunner en la producción de series de ficción", "institution": "RTVE Instituto", "year": "2024" },
+    { "title": "Historia del Arte (100h)", "institution": "CEPA Francisco Giner de los Ríos", "year": "2019" }
+  ],
+  "skills": [
+    {
+      "title": "Creatividad",
+      "description": "Generación de conceptos visuales y narrativos coherentes con la visión del proyecto."
+    },
+    {
+      "title": "Dirección de equipos",
+      "description": "Coordinación de equipos multidisciplinares fomentando la colaboración y la ejecución de ideas."
+    },
+    {
+      "title": "Comunicación visual",
+      "description": "Capacidad para expresar conceptos con claridad, facilitando la comprensión de la visión creativa."
+    },
+    {
+      "title": "Gestión y organización",
+      "description": "Eficiencia en proyectos, recursos y plazos manteniendo la coherencia estética."
+    }
+  ],
+  "tools": [
+    "Adobe Premiere Pro",
+    "Adobe Audition",
+    "Adobe Photoshop",
+    "Final Draft",
+    "Scenarist",
+    "Trabajos de taller"
+  ],
+  "languages": [
+    { "name": "Español", "level": "Nativo" },
+    { "name": "Inglés", "level": "Operativo" },
+    { "name": "Portugués", "level": "Nociones básicas" }
+  ],
+  "highlights": [
+    "Jurado Joven · SEMINCI Valladolid 2024",
+    "Dirección Artística · Campaña Alex Bravo 2025",
+    "Directora Creativa · Videoclip 'Farolas' (Tessa Tide)"
+  ],
+  "cv": "assets/docs/cv-malena-salgado.pdf"
+}

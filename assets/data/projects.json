@@ -1,0 +1,473 @@
+{
+  "categories": [
+    { "id": "videoclips", "label": "Videoclips", "tagline": "Música hecha imagen", "order": 1 },
+    { "id": "fashion", "label": "Fashion Film y Publicidad", "tagline": "Estética, ritmo, deseo", "order": 2 },
+    { "id": "cortos", "label": "Cortometrajes", "tagline": "Historias breves, miradas largas", "order": 3 },
+    { "id": "bodegones", "label": "Bodegones", "tagline": "Composiciones que cuentan", "order": 4 },
+    { "id": "construccion", "label": "Escenografía", "tagline": "Del boceto al set", "order": 5 }
+  ],
+  "projects": [
+    {
+      "id": "delete",
+      "category": "cortos",
+      "title": "DELETE",
+      "year": null,
+      "order": 5,
+      "role": "Dirección de Producción",
+      "format": "Cortometraje",
+      "synopsis": "Una historia sobre lo que decidimos borrar y lo que se queda.",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/delete/03.webp",
+      "thumb": "assets/img/projects/cortos/delete/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/delete/01.webp",
+        "assets/img/projects/cortos/delete/02.webp",
+        "assets/img/projects/cortos/delete/03.webp",
+        "assets/img/projects/cortos/delete/04.webp"
+      ],
+      "trailer": null
+    },
+    {
+      "id": "milvus-milvus",
+      "category": "cortos",
+      "title": "Milvus Milvus",
+      "year": null,
+      "order": 6,
+      "role": "Directora, Guionista y Directora de Arte",
+      "format": "Cortometraje",
+      "synopsis": "",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/milvus-milvus/05.webp",
+      "thumb": "assets/img/projects/cortos/milvus-milvus/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/milvus-milvus/01.webp",
+        "assets/img/projects/cortos/milvus-milvus/02.webp",
+        "assets/img/projects/cortos/milvus-milvus/03.webp",
+        "assets/img/projects/cortos/milvus-milvus/04.webp",
+        "assets/img/projects/cortos/milvus-milvus/05.webp",
+        "assets/img/projects/cortos/milvus-milvus/06.webp"
+      ],
+      "trailer": null
+    },
+    {
+      "id": "quiero-hacerlo-bien",
+      "category": "cortos",
+      "title": "Quiero hacerlo bien",
+      "year": 2024,
+      "order": 3,
+      "role": "Script",
+      "format": "Cortometraje",
+      "synopsis": "Sobre la presión de las expectativas y el intento honesto de estar a la altura.",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/quiero-hacerlo-bien/03.webp",
+      "thumb": "assets/img/projects/cortos/quiero-hacerlo-bien/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/quiero-hacerlo-bien/01.webp",
+        "assets/img/projects/cortos/quiero-hacerlo-bien/02.webp",
+        "assets/img/projects/cortos/quiero-hacerlo-bien/03.webp",
+        "assets/img/projects/cortos/quiero-hacerlo-bien/04.webp",
+        "assets/img/projects/cortos/quiero-hacerlo-bien/05.webp",
+        "assets/img/projects/cortos/quiero-hacerlo-bien/06.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/quiero-hacerlo-bien.mp4",
+        "webm": "assets/video/trailers/quiero-hacerlo-bien.webm",
+        "poster": "assets/img/projects/cortos/quiero-hacerlo-bien/poster.webp"
+      }
+    },
+    {
+      "id": "naumaquia",
+      "category": "cortos",
+      "title": "Naumaquia",
+      "year": null,
+      "order": 1,
+      "role": "Ayudante de Arte",
+      "format": "Cortometraje",
+      "synopsis": "",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/naumaquia/03.webp",
+      "thumb": "assets/img/projects/cortos/naumaquia/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/naumaquia/01.webp",
+        "assets/img/projects/cortos/naumaquia/02.webp",
+        "assets/img/projects/cortos/naumaquia/03.webp",
+        "assets/img/projects/cortos/naumaquia/04.webp",
+        "assets/img/projects/cortos/naumaquia/05.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/naumaquia.mp4",
+        "webm": "assets/video/trailers/naumaquia.webm",
+        "poster": "assets/img/projects/cortos/naumaquia/poster.webp"
+      }
+    },
+    {
+      "id": "la-verdad",
+      "category": "cortos",
+      "title": "La Verdad",
+      "year": null,
+      "order": 2,
+      "role": "Directora de Arte",
+      "format": "Cortometraje",
+      "synopsis": "",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/la-verdad/08.webp",
+      "thumb": "assets/img/projects/cortos/la-verdad/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/la-verdad/01.webp",
+        "assets/img/projects/cortos/la-verdad/02.webp",
+        "assets/img/projects/cortos/la-verdad/03.webp",
+        "assets/img/projects/cortos/la-verdad/04.webp",
+        "assets/img/projects/cortos/la-verdad/05.webp",
+        "assets/img/projects/cortos/la-verdad/06.webp",
+        "assets/img/projects/cortos/la-verdad/07.webp",
+        "assets/img/projects/cortos/la-verdad/08.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/la-verdad.mp4",
+        "webm": "assets/video/trailers/la-verdad.webm",
+        "poster": "assets/img/projects/cortos/la-verdad/poster.webp"
+      }
+    },
+    {
+      "id": "cita-a-ciegas",
+      "category": "cortos",
+      "title": "Cita a ciegas",
+      "year": null,
+      "order": 4,
+      "role": "Ayudante de Arte",
+      "format": "Cortometraje",
+      "synopsis": "",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/cita-a-ciegas/04.webp",
+      "thumb": "assets/img/projects/cortos/cita-a-ciegas/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/cita-a-ciegas/01.webp",
+        "assets/img/projects/cortos/cita-a-ciegas/02.webp",
+        "assets/img/projects/cortos/cita-a-ciegas/03.webp",
+        "assets/img/projects/cortos/cita-a-ciegas/04.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/cita-a-ciegas.mp4",
+        "webm": "assets/video/trailers/cita-a-ciegas.webm",
+        "poster": "assets/img/projects/cortos/cita-a-ciegas/poster.webp"
+      }
+    },
+
+    {
+      "id": "farolas",
+      "category": "videoclips",
+      "title": "Farolas",
+      "artist": "Tessa Tide",
+      "year": 2025,
+      "month": "Diciembre",
+      "order": 1,
+      "role": "Directora Creativa",
+      "format": "Videoclip",
+      "synopsis": "Desarrollo de moodboards y propuesta visual. Ambientación y atrezzo del set para el videoclip de Tessa Tide.",
+      "collaborators": [{ "name": "Tessa Tide", "role": "Artista" }],
+      "poster": "assets/img/projects/videoclips/farolas/poster.webp",
+      "thumb": "assets/img/projects/videoclips/farolas/thumb.webp",
+      "gallery": [
+        "assets/img/projects/videoclips/farolas/01.webp",
+        "assets/img/projects/videoclips/farolas/02.webp",
+        "assets/img/projects/videoclips/farolas/03.webp",
+        "assets/img/projects/videoclips/farolas/04.webp",
+        "assets/img/projects/videoclips/farolas/05.webp",
+        "assets/img/projects/videoclips/farolas/06.webp",
+        "assets/img/projects/videoclips/farolas/07.webp",
+        "assets/img/projects/videoclips/farolas/08.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/farolas.mp4",
+        "webm": "assets/video/trailers/farolas.webm",
+        "poster": "assets/img/projects/videoclips/farolas/poster.webp"
+      }
+    },
+
+    {
+      "id": "turnt",
+      "category": "fashion",
+      "title": "Turnt",
+      "year": null,
+      "order": 3,
+      "role": "Ayudante de Dirección Artística",
+      "format": "Publicidad",
+      "synopsis": "Pieza publicitaria con tratamiento estético contemporáneo y atención al detalle de set.",
+      "collaborators": [],
+      "poster": "assets/img/projects/fashion/turnt/01.webp",
+      "thumb": "assets/img/projects/fashion/turnt/thumb.webp",
+      "gallery": [
+        "assets/img/projects/fashion/turnt/01.webp",
+        "assets/img/projects/fashion/turnt/02.webp",
+        "assets/img/projects/fashion/turnt/03.webp"
+      ],
+      "trailer": null
+    },
+    {
+      "id": "alexs",
+      "category": "fashion",
+      "title": "Alex Bravo — Campaña",
+      "year": 2025,
+      "month": "Diciembre",
+      "order": 1,
+      "role": "Ayudante de Dirección Artística",
+      "format": "Campaña Publicitaria",
+      "synopsis": "Desarrollo de moodboards y propuesta estética de la campaña. Ambientación y atrezzo de los sets de rodaje.",
+      "collaborators": [{ "name": "Alex Bravo", "role": "Producción" }],
+      "poster": "assets/img/projects/fashion/alexs/poster.webp",
+      "thumb": "assets/img/projects/fashion/alexs/thumb.webp",
+      "gallery": [
+        "assets/img/projects/fashion/alexs/01.webp",
+        "assets/img/projects/fashion/alexs/02.webp",
+        "assets/img/projects/fashion/alexs/03.webp",
+        "assets/img/projects/fashion/alexs/04.webp",
+        "assets/img/projects/fashion/alexs/05.webp",
+        "assets/img/projects/fashion/alexs/06.webp",
+        "assets/img/projects/fashion/alexs/07.webp"
+      ],
+      "trailer": null
+    },
+    {
+      "id": "fashion-film",
+      "category": "fashion",
+      "title": "Fashion Film",
+      "year": 2025,
+      "month": "Diciembre",
+      "order": 2,
+      "role": "Ayudante de Dirección Artística",
+      "format": "Fashion Film",
+      "synopsis": "Responsable del apoyo en el diseño, montaje y ambientación de los sets, así como en la gestión y disposición del atrezzo. Autoproducción.",
+      "collaborators": [],
+      "poster": "assets/img/projects/fashion/fashion-film/04.webp",
+      "thumb": "assets/img/projects/fashion/fashion-film/thumb.webp",
+      "gallery": [
+        "assets/img/projects/fashion/fashion-film/01.webp",
+        "assets/img/projects/fashion/fashion-film/02.webp",
+        "assets/img/projects/fashion/fashion-film/03.webp",
+        "assets/img/projects/fashion/fashion-film/04.webp",
+        "assets/img/projects/fashion/fashion-film/05.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/fashion-film.mp4",
+        "webm": "assets/video/trailers/fashion-film.webm",
+        "poster": "assets/img/projects/fashion/fashion-film/poster.webp"
+      }
+    },
+
+    {
+      "id": "leyes",
+      "category": "bodegones",
+      "title": "Leyes",
+      "year": null,
+      "order": 1,
+      "role": "Dirección Artística",
+      "format": "Bodegón audiovisual",
+      "synopsis": "Composición de bodegón sobre el peso simbólico de la justicia.",
+      "collaborators": [],
+      "poster": "assets/img/projects/bodegones/leyes/01.webp",
+      "thumb": "assets/img/projects/bodegones/leyes/thumb.webp",
+      "gallery": [
+        "assets/img/projects/bodegones/leyes/01.webp",
+        "assets/img/projects/bodegones/leyes/02.webp",
+        "assets/img/projects/bodegones/leyes/03.webp",
+        "assets/img/projects/bodegones/leyes/04.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/leyes.mp4",
+        "webm": "assets/video/trailers/leyes.webm",
+        "poster": "assets/img/projects/bodegones/leyes/poster.webp"
+      }
+    },
+    {
+      "id": "narcos",
+      "category": "bodegones",
+      "title": "Mafia",
+      "year": null,
+      "order": 2,
+      "role": "Dirección Artística",
+      "format": "Bodegón audiovisual",
+      "synopsis": "Naturaleza muerta sobre el universo del crimen organizado y sus iconografías.",
+      "collaborators": [],
+      "poster": "assets/img/projects/bodegones/narcos/02.webp",
+      "thumb": "assets/img/projects/bodegones/narcos/thumb.webp",
+      "gallery": [
+        "assets/img/projects/bodegones/narcos/01.webp",
+        "assets/img/projects/bodegones/narcos/02.webp",
+        "assets/img/projects/bodegones/narcos/03.webp",
+        "assets/img/projects/bodegones/narcos/04.webp",
+        "assets/img/projects/bodegones/narcos/05.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/narcos.mp4",
+        "webm": "assets/video/trailers/narcos.webm",
+        "poster": "assets/img/projects/bodegones/narcos/poster.webp"
+      }
+    },
+    {
+      "id": "periodismo",
+      "category": "bodegones",
+      "title": "Periodismo",
+      "year": null,
+      "order": 3,
+      "role": "Dirección Artística",
+      "format": "Bodegón audiovisual",
+      "synopsis": "Bodegón sobre los objetos de la profesión periodística y sus huellas.",
+      "collaborators": [],
+      "poster": "assets/img/projects/bodegones/periodismo/02.webp",
+      "thumb": "assets/img/projects/bodegones/periodismo/thumb.webp",
+      "gallery": [
+        "assets/img/projects/bodegones/periodismo/01.webp",
+        "assets/img/projects/bodegones/periodismo/02.webp",
+        "assets/img/projects/bodegones/periodismo/03.webp",
+        "assets/img/projects/bodegones/periodismo/04.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/periodismo.mp4",
+        "webm": "assets/video/trailers/periodismo.webm",
+        "poster": "assets/img/projects/bodegones/periodismo/poster.webp"
+      }
+    },
+    {
+      "id": "psiquiatrico",
+      "category": "bodegones",
+      "title": "Psiquiátrico",
+      "year": null,
+      "order": 4,
+      "role": "Dirección Artística",
+      "format": "Bodegón audiovisual",
+      "synopsis": "Composición sobre la fragmentación de la mente y el universo psiquiátrico.",
+      "collaborators": [],
+      "poster": "assets/img/projects/bodegones/psiquiatrico/03.webp",
+      "thumb": "assets/img/projects/bodegones/psiquiatrico/thumb.webp",
+      "gallery": [
+        "assets/img/projects/bodegones/psiquiatrico/01.webp",
+        "assets/img/projects/bodegones/psiquiatrico/02.webp",
+        "assets/img/projects/bodegones/psiquiatrico/03.webp",
+        "assets/img/projects/bodegones/psiquiatrico/04.webp",
+        "assets/img/projects/bodegones/psiquiatrico/05.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/psiquiatrico.mp4",
+        "webm": "assets/video/trailers/psiquiatrico.webm",
+        "poster": "assets/img/projects/bodegones/psiquiatrico/poster.webp"
+      }
+    },
+
+    {
+      "id": "ascensor",
+      "category": "construccion",
+      "title": "Ascensor",
+      "year": null,
+      "order": 1,
+      "role": "Construcción de set",
+      "format": "Estudio escenográfico",
+      "synopsis": "Diseño y construcción de un ascensor como espacio dramático autocontenido.",
+      "collaborators": [],
+      "poster": "assets/img/projects/construccion/ascensor/poster.webp?v=2",
+      "thumb": "assets/img/projects/construccion/ascensor/thumb.webp",
+      "gallery": [
+        "assets/img/projects/construccion/ascensor/01.webp",
+        "assets/img/projects/construccion/ascensor/02.webp",
+        "assets/img/projects/construccion/ascensor/03.webp",
+        "assets/img/projects/construccion/ascensor/04.webp",
+        "assets/img/projects/construccion/ascensor/05.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/ascensor.mp4",
+        "webm": "assets/video/trailers/ascensor.webm",
+        "poster": "assets/img/projects/construccion/ascensor/poster.webp"
+      }
+    },
+    {
+      "id": "bar-chino",
+      "category": "construccion",
+      "title": "Bar Japonés",
+      "year": null,
+      "order": 2,
+      "role": "Construcción de set",
+      "format": "Estudio escenográfico",
+      "synopsis": "Recreación de un bar japonés de barrio: luz, color y atrezzo cotidiano.",
+      "collaborators": [],
+      "poster": "assets/img/projects/construccion/bar-chino/poster.webp",
+      "thumb": "assets/img/projects/construccion/bar-chino/thumb.webp",
+      "gallery": [
+        "assets/img/projects/construccion/bar-chino/01.webp",
+        "assets/img/projects/construccion/bar-chino/02.webp",
+        "assets/img/projects/construccion/bar-chino/03.webp",
+        "assets/img/projects/construccion/bar-chino/04.webp"
+      ],
+      "trailer": null
+    },
+    {
+      "id": "callejon",
+      "category": "construccion",
+      "title": "Callejón",
+      "year": null,
+      "order": 3,
+      "role": "Construcción de set",
+      "format": "Estudio escenográfico",
+      "synopsis": "Estudio de un callejón nocturno: textura, sombra y atmósfera.",
+      "collaborators": [],
+      "poster": "assets/img/projects/construccion/callejon/poster.webp",
+      "thumb": "assets/img/projects/construccion/callejon/thumb.webp",
+      "gallery": [
+        "assets/img/projects/construccion/callejon/01.webp",
+        "assets/img/projects/construccion/callejon/02.webp",
+        "assets/img/projects/construccion/callejon/03.webp",
+        "assets/img/projects/construccion/callejon/04.webp",
+        "assets/img/projects/construccion/callejon/05.webp",
+        "assets/img/projects/construccion/callejon/07.webp"
+      ],
+      "trailer": null
+    },
+    {
+      "id": "mix",
+      "category": "construccion",
+      "title": "Mix",
+      "year": null,
+      "order": 4,
+      "role": "Construcción de set",
+      "format": "Estudio escenográfico",
+      "synopsis": "Pieza escenográfica híbrida que combina referentes y materiales diversos.",
+      "collaborators": [],
+      "poster": "assets/img/projects/construccion/mix/06.webp",
+      "thumb": "assets/img/projects/construccion/mix/thumb.webp",
+      "gallery": [
+        "assets/img/projects/construccion/mix/01.webp",
+        "assets/img/projects/construccion/mix/02.webp",
+        "assets/img/projects/construccion/mix/03.webp",
+        "assets/img/projects/construccion/mix/04.webp",
+        "assets/img/projects/construccion/mix/05.webp",
+        "assets/img/projects/construccion/mix/06.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/mix.mp4",
+        "webm": "assets/video/trailers/mix.webm",
+        "poster": "assets/img/projects/construccion/mix/poster.webp"
+      }
+    },
+    {
+      "id": "teleferico",
+      "category": "construccion",
+      "title": "Teleférico",
+      "year": null,
+      "order": 5,
+      "role": "Construcción de set",
+      "format": "Estudio escenográfico",
+      "synopsis": "Estudio de cabina de teleférico como cápsula narrativa suspendida.",
+      "collaborators": [],
+      "poster": "assets/img/projects/construccion/teleferico/poster.webp",
+      "thumb": "assets/img/projects/construccion/teleferico/thumb.webp",
+      "gallery": [
+        "assets/img/projects/construccion/teleferico/01.webp",
+        "assets/img/projects/construccion/teleferico/02.webp",
+        "assets/img/projects/construccion/teleferico/03.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/teleferico.mp4",
+        "webm": "assets/video/trailers/teleferico.webm",
+        "poster": "assets/img/projects/construccion/teleferico/poster.webp"
+      }
+    }
+  ]
+}

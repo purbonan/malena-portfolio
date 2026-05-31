@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0E0B0A" />
+
+  <title>Malena Salgado — Dirección Artística</title>
+  <meta name="description" content="Portfolio de Malena Salgado Martín, dirección artística para cine, videoclips y publicidad. Madrid." />
+  <meta name="author" content="Malena Salgado Martín" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Malena Salgado — Dirección Artística" />
+  <meta property="og:description" content="Portfolio de Malena Salgado Martín, dirección artística para cine, videoclips y publicidad." />
+  <meta property="og:image" content="assets/img/og/og-image.jpg" />
+  <meta property="og:locale" content="es_ES" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,900&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css?v=6" />
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- ====================== NAV ====================== -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#hero" aria-label="Inicio">
+      <span class="nav__brand-mark" aria-hidden="true"></span>
+      Malena Salgado
+    </a>
+
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav__menu" aria-label="Menú principal">
+      <a class="nav__link" href="#about">Sobre mí</a>
+      <a class="nav__link" href="#videoclips">Videoclips</a>
+      <a class="nav__link" href="#fashion">Fashion · Publi</a>
+      <a class="nav__link" href="#cortos">Cortos</a>
+      <a class="nav__link" href="#bodegones">Bodegones</a>
+      <a class="nav__link" href="#construccion">Escenografía</a>
+      <a class="nav__link" href="#tfg">TFG</a>
+      <a class="nav__link" href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ====================== HERO ====================== -->
+    <section class="hero" id="hero">
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          autoplay muted loop playsinline
+          poster="assets/img/hero/hero-poster.jpg"
+          aria-hidden="true">
+          <source src="assets/video/trailers/farolas.webm" type="video/webm" />
+          <source src="assets/video/trailers/farolas.mp4" type="video/mp4" />
+        </video>
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__pre">Portfolio · 2026</p>
+
+        <h1 class="hero__title" data-hero-title>
+          <span class="hero__title-line"><span>Malena</span></span>
+          <span class="hero__title-line"><span>Salgado</span></span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Dirección Artística · Cine &amp; Publicidad · Madrid
+        </p>
+
+        <div class="hero__meta">
+          <span class="hero__meta-item">Cortos</span>
+          <span class="hero__meta-item">Videoclips</span>
+          <span class="hero__meta-item">Fashion Film</span>
+          <span class="hero__meta-item">Bodegones</span>
+          <span class="hero__meta-item">Escenografía</span>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#about" aria-label="Bajar a sobre mí">
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+        Scroll
+      </a>
+    </section>
+
+    <!-- ====================== ABOUT ====================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <div class="section__head-text">
+            <p class="section__eyebrow">01 · Sobre mí</p>
+            <h2 class="section__title">Imágenes que se quedan</h2>
+          </div>
+          <p class="section__tagline">Quien mira con sensibilidad, construye con verdad.</p>
+        </header>
+
+        <div class="about__grid">
+          <figure class="about__portrait" data-reveal>
+            <div class="placeholder" data-label="Retrato — assets/img/about/malena.webp"></div>
+            <div class="about__portrait-frame" aria-hidden="true"></div>
+            <figcaption class="about__portrait-tag">Madrid · 2026</figcaption>
+          </figure>
+
+          <div class="about__content" data-reveal>
+            <div class="about__bio" data-about-bio></div>
+
+            <blockquote class="about__manifesto" data-about-manifesto></blockquote>
+
+            <div class="about__details">
+              <div class="about__block">
+                <h3 class="about__block-title">Formación</h3>
+                <ul data-about-education></ul>
+              </div>
+
+              <div class="about__block">
+                <h3 class="about__block-title">Idiomas</h3>
+                <div class="about__languages" data-about-languages></div>
+              </div>
+            </div>
+
+            <div class="about__skills" data-about-skills></div>
+
+            <div class="about__details">
+              <div class="about__block">
+                <h3 class="about__block-title">Herramientas</h3>
+                <ul data-about-tools></ul>
+              </div>
+              <div class="about__block">
+                <h3 class="about__block-title">Referentes</h3>
+                <ul data-about-references></ul>
+              </div>
+            </div>
+
+            <div class="about__cta">
+              <a class="btn btn--filled" href="assets/docs/cv-malena-salgado.pdf" download>
+                Descargar CV <span class="btn__arrow">↓</span>
+              </a>
+              <a class="btn btn--ghost" href="#contact">
+                Hablemos <span class="btn__arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ====================== VIDEOCLIPS ====================== -->
+    <section class="section videoclips" id="videoclips">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <div class="section__head-text">
+            <p class="section__eyebrow">02 · Videoclips</p>
+            <h2 class="section__title">Música hecha imagen</h2>
+          </div>
+          <p class="section__tagline">Donde el ritmo se vuelve color.</p>
+        </header>
+
+        <div class="videoclips__split" data-videoclips-mount data-reveal></div>
+      </div>
+    </section>
+
+    <!-- ====================== FASHION ====================== -->
+    <section class="section fashion" id="fashion">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <div class="section__head-text">
+            <p class="section__eyebrow">03 · Fashion Film &amp; Publicidad</p>
+            <h2 class="section__title">Estética, ritmo, deseo</h2>
+          </div>
+        </header>
+
+        <div class="fashion__grid" data-fashion-mount data-reveal-stagger></div>
+      </div>
+    </section>
+
+    <!-- ====================== CORTOS ====================== -->
+    <section class="section cortos" id="cortos">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <div class="section__head-text">
+            <p class="section__eyebrow">04 · Cortometrajes</p>
+            <h2 class="section__title">Historias breves, miradas largas</h2>
+          </div>
+        </header>
+      </div>
+
+      <div class="cortos__carousel">
+        <button class="cortos__arrow cortos__arrow--prev" data-cortos-prev aria-label="Anterior">‹</button>
+        <div class="cortos__viewport" data-cortos-viewport>
+          <div class="cortos__track" data-cortos-track></div>
+        </div>
+        <button class="cortos__arrow cortos__arrow--next" data-cortos-next aria-label="Siguiente">›</button>
+      </div>
+    </section>
+
+    <!-- ====================== BODEGONES ====================== -->
+    <section class="section bodegones" id="bodegones">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <div class="section__head-text">
+            <p class="section__eyebrow">05 · Bodegones</p>
+            <h2 class="section__title">Composiciones que cuentan</h2>
+          </div>
+          <p class="section__tagline">Naturaleza muerta, mirada viva.</p>
+        </header>
+
+        <div class="bodegones__grid" data-bodegones-mount data-reveal-stagger></div>
+      </div>
+    </section>
+
+    <!-- ====================== ESCENOGRAFÍA ====================== -->
+    <section class="section construccion" id="construccion">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <div class="section__head-text">
+            <p class="section__eyebrow">06 · Escenografía</p>
+            <h2 class="section__title">Del boceto al set</h2>
+          </div>
+          <p class="section__tagline">Donde lo imaginado toma volumen.</p>
+        </header>
+
+        <p class="construccion__intro" data-reveal>
+          Estudios escenográficos, montajes y experimentos de espacio. La dirección artística empieza en el papel y termina cuando el actor cruza la puerta del set.
+        </p>
+
+        <div class="construccion__grid" data-construccion-mount data-reveal-stagger></div>
+      </div>
+    </section>
+
+    <!-- ====================== TFG ====================== -->
+    <section class="section tfg" id="tfg">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <div class="section__head-text">
+            <p class="section__eyebrow">07 · Trabajo de Fin de Grado</p>
+            <h2 class="section__title">La luz como herencia</h2>
+          </div>
+          <p class="section__tagline">Investigar también es crear.</p>
+        </header>
+
+        <div class="tfg__layout">
+          <div class="tfg__content" data-reveal>
+            <p class="tfg__eyebrow">Investigación · UPSA</p>
+            <h3 class="tfg__title" data-tfg-title></h3>
+            <p class="tfg__fulltitle" data-tfg-fulltitle></p>
+            <blockquote class="tfg__quote" data-tfg-quote></blockquote>
+            <div class="tfg__intro" data-tfg-intro></div>
+            <div class="tfg__cta">
+              <a class="btn btn--filled" data-tfg-view target="_blank" rel="noopener">
+                Leer en línea <span class="btn__arrow">↗</span>
+              </a>
+              <a class="btn btn--ghost" data-tfg-download download>
+                Descargar PDF <span class="btn__arrow">↓</span>
+              </a>
+            </div>
+          </div>
+
+          <figure class="tfg__cover" data-reveal>
+            <div class="placeholder" data-label="Portada del TFG"></div>
+            <figcaption class="tfg__cover-tag">
+              <span>Trabajo de Fin de Grado</span>
+              UPSA · Comunicación Audiovisual
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== CONTACT ====================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <p class="contact__eyebrow" data-reveal>08 · Contacto</p>
+          <h2 class="contact__headline" data-reveal data-contact-headline></h2>
+          <p class="contact__intro" data-reveal data-contact-intro></p>
+
+          <div class="contact__channels" data-reveal-stagger data-contact-mount></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================== FOOTER ====================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__brand">Malena Salgado Martín</span>
+        <span class="footer__copy">© <span data-year></span> · Todos los derechos reservados</span>
+        <span class="footer__signature">Diseñado con cariño en Madrid</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================== LIGHTBOX ====================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" aria-label="Cerrar">✕</button>
+
+      <div class="lightbox__media">
+        <button class="lightbox__nav lightbox__nav--prev" aria-label="Anterior">‹</button>
+        <button class="lightbox__nav lightbox__nav--next" aria-label="Siguiente">›</button>
+        <span class="lightbox__counter" data-lightbox-counter></span>
+        <div data-lightbox-media></div>
+      </div>
+
+      <div class="lightbox__details">
+        <p class="lightbox__eyebrow" data-lightbox-eyebrow></p>
+        <h3 class="lightbox__title" id="lightbox-title" data-lightbox-title></h3>
+
+        <div class="lightbox__meta" data-lightbox-meta></div>
+
+        <p class="lightbox__synopsis" data-lightbox-synopsis></p>
+
+        <div class="lightbox__credits" data-lightbox-credits></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====================== Scripts ====================== -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script type="module" src="js/main.js?v=6"></script>
+</body>
+</html>

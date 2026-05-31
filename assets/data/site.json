@@ -1,0 +1,39 @@
+{
+  "siteName": "Malena Salgado",
+  "siteTitle": "Malena Salgado — Dirección Artística",
+  "siteDescription": "Portfolio de Malena Salgado Martín, dirección artística para cine, videoclips y publicidad. Madrid.",
+  "siteUrl": "https://2enfisica.github.io/malena-portfolio/",
+  "ogImage": "assets/img/og/og-image.jpg",
+  "author": "Malena Salgado Martín",
+  "year": 2026,
+  "hero": {
+    "preTitle": "Portfolio · 2026",
+    "title": "Malena Salgado",
+    "subtitle": "Dirección Artística · Cine & Publicidad · Madrid",
+    "videoMp4": "assets/video/hero-loop.mp4",
+    "videoWebm": "assets/video/hero-loop.webm",
+    "poster": "assets/img/hero/hero-poster.jpg"
+  },
+  "tfg": {
+    "title": "Retroalimentación de las pinturas de Edward Hopper y el cine negro",
+    "subtitle": "Trabajo de Fin de Grado",
+    "fullTitle": "Caso de estudio: La ventana indiscreta (Alfred Hitchcock, 1954) y Extraños en un tren (Alfred Hitchcock, 1951)",
+    "pullQuote": "La luz que entra por una ventana cualquiera, pintada en 1942, sigue iluminando los rostros del cine negro setenta años después.",
+    "intro": [
+      "Esta investigación explora el puente silencioso entre la pintura de Edward Hopper y el cine negro de Alfred Hitchcock: cómo el claroscuro hopperiano —esa luz lateral, esos interiores suspendidos en el tiempo— se filtra en los planos de Hitchcock y se convierte en gramática visual del género.",
+      "Es un trabajo sobre la imagen como lenguaje compartido, sobre cómo la pintura prepara el ojo del cine. Una invitación a mirar dos veces."
+    ],
+    "viewerUrl": "assets/docs/tfg-malena-salgado.pdf",
+    "downloadUrl": "assets/docs/tfg-malena-salgado.pdf",
+    "coverImage": "assets/img/about/tfg-portada.webp"
+  },
+  "contact": {
+    "headline": "¿Trabajamos juntos?",
+    "intro": "Cuéntame tu próximo proyecto. Me encantará formar parte de él.",
+    "email": "malenasalgadomartin@gmail.com",
+    "phone": "+34 601 348 960",
+    "phoneRaw": "+34601348960",
+    "instagram": "malenasm_",
+    "instagramUrl": "https://instagram.com/malenasm_"
+  }
+}

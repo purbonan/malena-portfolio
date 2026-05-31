@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Section: Bodegones — masonry-like grid
+   ========================================================================== */
+
+.bodegones {
+  background: var(--color-bg);
+  position: relative;
+}
+
+.bodegones::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' /><feColorMatrix values='0 0 0 0 0.91 0 0 0 0 0.85 0 0 0 0 0.77 0 0 0 0.06 0' /></filter><rect width='200' height='200' filter='url(%23n)' /></svg>");
+  pointer-events: none;
+  opacity: 0.4;
+  mix-blend-mode: overlay;
+  z-index: 0;
+}
+
+.bodegones > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.bodegones__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .bodegones__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
+
+.bodegones__grid > .project-card:nth-child(odd) .project-card__media {
+  aspect-ratio: 16 / 9;
+}
+
+.bodegones__grid > .project-card:nth-child(even) .project-card__media {
+  aspect-ratio: 3 / 2;
+  margin-top: var(--space-xl);
+}
+
+@media (max-width: 768px) {
+  .bodegones__grid > .project-card:nth-child(even) .project-card__media {
+    margin-top: 0;
+  }
+}

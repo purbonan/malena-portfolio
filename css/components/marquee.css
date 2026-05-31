@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Marquee — infinite horizontal scroll
+   ========================================================================== */
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-block: var(--space-md);
+  border-block: var(--border-thin);
+  user-select: none;
+}
+
+.marquee__track {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xl);
+  width: max-content;
+  animation: marquee-scroll 40s linear infinite;
+}
+
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+
+.marquee__item {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: var(--fw-light);
+  font-size: var(--fs-2xl);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xl);
+}
+
+.marquee__item::after {
+  content: "✦";
+  color: var(--color-gold);
+  font-size: var(--fs-base);
+  font-style: normal;
+}
+
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,209 @@
+/* ==========================================================================
+   Section: TFG — pull-quote cinematográfico
+   ========================================================================== */
+
+.tfg {
+  position: relative;
+  background:
+    linear-gradient(to bottom, rgba(14, 11, 10, 0.88), rgba(14, 11, 10, 0.78)),
+    url("../../assets/img/about/tfg-cover.webp") center / cover no-repeat;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Líneas de luz lateral evocando claroscuro hopperiano */
+.tfg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(184, 147, 90, 0.06) 30%,
+    rgba(184, 147, 90, 0.12) 50%,
+    rgba(184, 147, 90, 0.06) 70%,
+    transparent 100%
+  );
+  transform: skewX(-12deg);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.tfg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    var(--color-gold) 30%,
+    var(--color-gold) 70%,
+    transparent
+  );
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.tfg__layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .tfg__layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+.tfg__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.tfg__eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-widest);
+  color: var(--color-gold);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.tfg__eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background: var(--color-gold);
+}
+
+.tfg__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-4xl);
+  font-weight: var(--fw-black);
+  line-height: 0.95;
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-text);
+  font-variation-settings: "SOFT" 60, "opsz" 144;
+}
+
+.tfg__fulltitle {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: var(--fw-light);
+  font-size: var(--fs-lg);
+  line-height: 1.4;
+  color: var(--color-text-muted);
+  max-width: 45ch;
+}
+
+.tfg__quote {
+  position: relative;
+  padding: var(--space-md) 0 var(--space-md) var(--space-lg);
+  border-left: 2px solid var(--color-gold);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: var(--fw-light);
+  font-size: var(--fs-2xl);
+  line-height: 1.3;
+  color: var(--color-text);
+  margin-block: var(--space-md);
+}
+
+.tfg__quote::before {
+  content: "❝";
+  position: absolute;
+  top: -0.5em;
+  left: var(--space-sm);
+  font-size: 4em;
+  color: var(--color-accent);
+  opacity: 0.4;
+  font-family: var(--font-display);
+  z-index: -1;
+}
+
+.tfg__intro {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  font-size: var(--fs-base);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  max-width: 55ch;
+}
+
+.tfg__cta {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.tfg__cover {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  background: var(--color-bg-elevated);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.tfg__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #f5f1eb;
+  padding: var(--space-sm);
+}
+
+.tfg__cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--color-accent), var(--color-accent-bright));
+  z-index: 2;
+}
+
+.tfg__cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    transparent 60%,
+    rgba(14, 11, 10, 0.4) 100%
+  );
+  pointer-events: none;
+}
+
+.tfg__cover-tag {
+  position: absolute;
+  bottom: var(--space-sm);
+  left: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-widest);
+  color: var(--color-text);
+  z-index: 3;
+}
+
+.tfg__cover-tag span {
+  display: block;
+  color: var(--color-gold);
+  margin-bottom: var(--space-3xs);
+}

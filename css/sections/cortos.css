@@ -1,0 +1,98 @@
+/* ==========================================================================
+   Section: Cortos — horizontal carousel with arrow navigation
+   ========================================================================== */
+
+.cortos {
+  background: var(--color-bg);
+  position: relative;
+}
+
+.cortos__carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding-inline: var(--container-padding);
+}
+
+.cortos__viewport {
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--space-md);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.cortos__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.cortos__track {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+  padding-block: var(--space-md);
+}
+
+.cortos__card {
+  flex: 0 0 auto;
+  width: clamp(380px, 38vw, 560px);
+  scroll-snap-align: start;
+}
+
+.cortos__card .project-card__media {
+  aspect-ratio: 16 / 9;
+  box-shadow: var(--shadow-md);
+}
+
+/* Arrows */
+.cortos__arrow {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: var(--color-text);
+  background: var(--color-bg-elevated);
+  border: var(--border-thin);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity var(--dur-base) var(--ease-out),
+              background var(--dur-base) var(--ease-out),
+              transform var(--dur-base) var(--ease-out);
+  z-index: 2;
+}
+
+.cortos__arrow:hover {
+  background: var(--color-gold);
+  color: var(--color-bg);
+  transform: scale(1.1);
+}
+
+.cortos__arrow.is-disabled {
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cortos__carousel {
+    padding-inline: 0;
+  }
+  .cortos__viewport {
+    scroll-padding-inline: var(--container-padding);
+  }
+  .cortos__track {
+    padding-inline: var(--container-padding);
+  }
+  .cortos__card {
+    width: 75vw;
+  }
+  .cortos__arrow {
+    display: none;
+  }
+}

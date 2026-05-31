@@ -1,0 +1,128 @@
+/* ==========================================================================
+   Main — orquestador de imports
+   Carga: tokens > reset > base > layout > componentes > secciones
+   ========================================================================== */
+
+@import "./tokens.css";
+@import "./reset.css";
+@import "./base.css";
+@import "./layout.css";
+
+/* Componentes globales */
+@import "./components/nav.css";
+@import "./components/hero.css";
+@import "./components/project-card.css?v=6";
+@import "./components/lightbox.css?v=6";
+@import "./components/marquee.css";
+@import "./components/footer.css";
+
+/* Secciones */
+@import "./sections/about.css";
+@import "./sections/cortos.css?v=6";
+@import "./sections/videoclips.css?v=6";
+@import "./sections/fashion.css?v=6";
+@import "./sections/bodegones.css?v=6";
+@import "./sections/construccion.css?v=6";
+@import "./sections/tfg.css";
+@import "./sections/contact.css";
+
+/* ==========================================================================
+   Animation utilities — used by JS via class toggling
+   ========================================================================== */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.9s var(--ease-out),
+              transform 0.9s var(--ease-out);
+  will-change: transform, opacity;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-reveal-stagger] > * {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s var(--ease-out),
+              transform 0.7s var(--ease-out);
+}
+
+[data-reveal-stagger].is-visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-reveal-stagger].is-visible > *:nth-child(1) { transition-delay: 0.0s; }
+[data-reveal-stagger].is-visible > *:nth-child(2) { transition-delay: 0.08s; }
+[data-reveal-stagger].is-visible > *:nth-child(3) { transition-delay: 0.16s; }
+[data-reveal-stagger].is-visible > *:nth-child(4) { transition-delay: 0.24s; }
+[data-reveal-stagger].is-visible > *:nth-child(5) { transition-delay: 0.32s; }
+[data-reveal-stagger].is-visible > *:nth-child(6) { transition-delay: 0.4s; }
+
+/* ==========================================================================
+   Loading state
+   ========================================================================== */
+
+.is-loading {
+  cursor: wait;
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-bg-elevated) 0%,
+    rgba(232, 217, 196, 0.06) 50%,
+    var(--color-bg-elevated) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton 1.4s var(--ease-in-out) infinite;
+}
+
+@keyframes skeleton {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+/* ==========================================================================
+   Empty state — para proyectos sin imagen aún
+   ========================================================================== */
+
+.placeholder {
+  background:
+    linear-gradient(135deg, var(--color-bg-elevated), var(--color-bg)),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(232, 217, 196, 0.03) 10px,
+      rgba(232, 217, 196, 0.03) 20px
+    );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-widest);
+  color: var(--color-text-dim);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: var(--space-md);
+}
+
+.placeholder::before {
+  content: attr(data-label);
+}
+
+/* ==========================================================================
+   Section transitions / dividers
+   ========================================================================== */
+
+.section + .section {
+  border-top: var(--border-thin);
+}
+
