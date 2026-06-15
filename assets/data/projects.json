@@ -123,8 +123,8 @@
         "assets/img/projects/cortos/la-verdad/08.webp"
       ],
       "trailer": {
-        "mp4": "assets/video/trailers/la-verdad.mp4",
-        "webm": "assets/video/trailers/la-verdad.webm",
+        "mp4": "assets/video/trailers/la-verdad.mp4?v=2",
+        "webm": "assets/video/trailers/la-verdad.webm?v=2",
         "poster": "assets/img/projects/cortos/la-verdad/poster.webp"
       }
     },
@@ -209,7 +209,11 @@
         "assets/img/projects/cortos/arcoiris-de-dinero/18.webp",
         "assets/img/projects/cortos/arcoiris-de-dinero/19.webp"
       ],
-      "trailer": null
+      "trailer": {
+        "mp4": "assets/video/trailers/arcoiris-de-dinero.mp4",
+        "webm": "assets/video/trailers/arcoiris-de-dinero.webm",
+        "poster": "assets/img/projects/cortos/arcoiris-de-dinero/poster.webp"
+      }
     },
 
     {
