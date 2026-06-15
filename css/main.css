@@ -6,7 +6,7 @@
 @import "./tokens.css";
 @import "./reset.css";
 @import "./base.css";
-@import "./layout.css";
+@import "./layout.css?v=7";
 
 /* Componentes globales */
 @import "./components/nav.css";
@@ -24,7 +24,7 @@
 @import "./sections/bodegones.css?v=6";
 @import "./sections/construccion.css?v=6";
 @import "./sections/tfg.css";
-@import "./sections/contact.css";
+@import "./sections/contact.css?v=7";
 
 /* ==========================================================================
    Animation utilities — used by JS via class toggling

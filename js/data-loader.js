@@ -11,7 +11,7 @@ const DATA_FILES = {
 export async function loadData() {
   try {
     const [projects, about, site] = await Promise.all([
-      fetch(DATA_FILES.projects + "?v=6").then((r) => {
+      fetch(DATA_FILES.projects + "?v=7").then((r) => {
         if (!r.ok) throw new Error(`projects.json: ${r.status}`);
         return r.json();
       }),

@@ -15,7 +15,7 @@
       "order": 5,
       "role": "Dirección de Producción",
       "format": "Cortometraje",
-      "synopsis": "Una historia sobre lo que decidimos borrar y lo que se queda.",
+      "synopsis": "",
       "collaborators": [],
       "poster": "assets/img/projects/cortos/delete/03.webp",
       "thumb": "assets/img/projects/cortos/delete/thumb.webp",
@@ -138,7 +138,7 @@
       "format": "Cortometraje",
       "synopsis": "",
       "collaborators": [],
-      "poster": "assets/img/projects/cortos/cita-a-ciegas/04.webp",
+      "poster": "assets/img/projects/cortos/cita-a-ciegas/poster.webp",
       "thumb": "assets/img/projects/cortos/cita-a-ciegas/thumb.webp",
       "gallery": [
         "assets/img/projects/cortos/cita-a-ciegas/01.webp",
@@ -151,6 +151,65 @@
         "webm": "assets/video/trailers/cita-a-ciegas.webm",
         "poster": "assets/img/projects/cortos/cita-a-ciegas/poster.webp"
       }
+    },
+    {
+      "id": "empleado-747k",
+      "category": "cortos",
+      "title": "Empleado 747K",
+      "year": null,
+      "order": 7,
+      "role": "",
+      "format": "Cortometraje",
+      "synopsis": "",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/empleado-747k/poster.webp",
+      "thumb": "assets/img/projects/cortos/empleado-747k/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/empleado-747k/01.webp",
+        "assets/img/projects/cortos/empleado-747k/02.webp",
+        "assets/img/projects/cortos/empleado-747k/03.webp",
+        "assets/img/projects/cortos/empleado-747k/04.webp",
+        "assets/img/projects/cortos/empleado-747k/05.webp",
+        "assets/img/projects/cortos/empleado-747k/06.webp",
+        "assets/img/projects/cortos/empleado-747k/07.webp",
+        "assets/img/projects/cortos/empleado-747k/08.webp"
+      ],
+      "trailer": null
+    },
+    {
+      "id": "arcoiris-de-dinero",
+      "category": "cortos",
+      "title": "Arcoíris de dinero",
+      "year": null,
+      "order": 8,
+      "role": "",
+      "format": "Cortometraje",
+      "synopsis": "",
+      "collaborators": [],
+      "poster": "assets/img/projects/cortos/arcoiris-de-dinero/poster.webp",
+      "thumb": "assets/img/projects/cortos/arcoiris-de-dinero/thumb.webp",
+      "gallery": [
+        "assets/img/projects/cortos/arcoiris-de-dinero/01.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/02.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/03.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/04.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/05.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/06.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/07.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/08.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/09.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/10.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/11.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/12.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/13.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/14.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/15.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/16.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/17.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/18.webp",
+        "assets/img/projects/cortos/arcoiris-de-dinero/19.webp"
+      ],
+      "trailer": null
     },
 
     {
@@ -181,6 +240,38 @@
         "mp4": "assets/video/trailers/farolas.mp4",
         "webm": "assets/video/trailers/farolas.webm",
         "poster": "assets/img/projects/videoclips/farolas/poster.webp"
+      }
+    },
+    {
+      "id": "el-charro",
+      "category": "videoclips",
+      "title": "El Charro",
+      "artist": "Lemus",
+      "year": null,
+      "order": 2,
+      "role": "Directora Creativa",
+      "format": "Videoclip",
+      "synopsis": "Dirección creativa del videoclip: elección de atrezzo, construcción del set y colocación de atrezzo y props.",
+      "collaborators": [{ "name": "Lemus", "role": "Artista" }],
+      "poster": "assets/img/projects/videoclips/el-charro/poster.webp",
+      "thumb": "assets/img/projects/videoclips/el-charro/thumb.webp",
+      "gallery": [
+        "assets/img/projects/videoclips/el-charro/01.webp",
+        "assets/img/projects/videoclips/el-charro/02.webp",
+        "assets/img/projects/videoclips/el-charro/03.webp",
+        "assets/img/projects/videoclips/el-charro/04.webp",
+        "assets/img/projects/videoclips/el-charro/05.webp",
+        "assets/img/projects/videoclips/el-charro/06.webp",
+        "assets/img/projects/videoclips/el-charro/07.webp",
+        "assets/img/projects/videoclips/el-charro/08.webp",
+        "assets/img/projects/videoclips/el-charro/09.webp",
+        "assets/img/projects/videoclips/el-charro/10.webp",
+        "assets/img/projects/videoclips/el-charro/11.webp"
+      ],
+      "trailer": {
+        "mp4": "assets/video/trailers/el-charro.mp4",
+        "webm": "assets/video/trailers/el-charro.webm",
+        "poster": "assets/img/projects/videoclips/el-charro/poster.webp"
       }
     },
 
@@ -288,14 +379,15 @@
       "format": "Bodegón audiovisual",
       "synopsis": "Naturaleza muerta sobre el universo del crimen organizado y sus iconografías.",
       "collaborators": [],
-      "poster": "assets/img/projects/bodegones/narcos/02.webp",
+      "poster": "assets/img/projects/bodegones/narcos/poster.webp",
       "thumb": "assets/img/projects/bodegones/narcos/thumb.webp",
       "gallery": [
         "assets/img/projects/bodegones/narcos/01.webp",
         "assets/img/projects/bodegones/narcos/02.webp",
         "assets/img/projects/bodegones/narcos/03.webp",
         "assets/img/projects/bodegones/narcos/04.webp",
-        "assets/img/projects/bodegones/narcos/05.webp"
+        "assets/img/projects/bodegones/narcos/05.webp",
+        "assets/img/projects/bodegones/narcos/06.webp"
       ],
       "trailer": {
         "mp4": "assets/video/trailers/narcos.mp4",
@@ -369,7 +461,6 @@
         "assets/img/projects/construccion/ascensor/01.webp",
         "assets/img/projects/construccion/ascensor/02.webp",
         "assets/img/projects/construccion/ascensor/03.webp",
-        "assets/img/projects/construccion/ascensor/04.webp",
         "assets/img/projects/construccion/ascensor/05.webp"
       ],
       "trailer": {
@@ -437,8 +528,7 @@
         "assets/img/projects/construccion/mix/02.webp",
         "assets/img/projects/construccion/mix/03.webp",
         "assets/img/projects/construccion/mix/04.webp",
-        "assets/img/projects/construccion/mix/05.webp",
-        "assets/img/projects/construccion/mix/06.webp"
+        "assets/img/projects/construccion/mix/05.webp"
       ],
       "trailer": {
         "mp4": "assets/video/trailers/mix.mp4",

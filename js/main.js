@@ -2,7 +2,7 @@
 // main.js — entry point
 // ==========================================================================
 
-import { loadData } from "./data-loader.js?v=6";
+import { loadData } from "./data-loader.js?v=7";
 import {
   renderCortos,
   renderVideoclips,
@@ -12,7 +12,7 @@ import {
   renderAbout,
   renderTFG,
   renderContact,
-} from "./render-projects.js";
+} from "./render-projects.js?v=7";
 import { openLightbox } from "./lightbox.js";
 import { initScrollReveal } from "./animations/scroll-reveal.js";
 import { initHeroAnim } from "./animations/hero-anim.js";

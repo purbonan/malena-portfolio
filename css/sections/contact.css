@@ -19,9 +19,10 @@
 
 .contact__eyebrow {
   font-family: var(--font-mono);
-  font-size: var(--fs-xs);
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-medium);
   text-transform: uppercase;
-  letter-spacing: var(--tracking-widest);
+  letter-spacing: var(--tracking-wider);
   color: var(--color-gold);
   display: flex;
   align-items: center;

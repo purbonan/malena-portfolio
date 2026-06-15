@@ -83,35 +83,33 @@ export function renderVideoclips(data, openLightbox) {
   if (!mount) return;
   const videoclips = projectsByCategory(data, "videoclips");
   if (videoclips.length === 0) return;
-  const project = videoclips[0];
-
-  const collaboratorsText = project.collaborators?.length
-    ? project.collaborators.map((c) => `${c.name}`).join(" · ")
-    : "";
 
   mount.innerHTML = "";
-  mount.appendChild(
-    el(`
-    <div class="videoclips__info">
-      <p class="videoclips__eyebrow">Videoclip · ${project.month || ""} ${project.year || ""}</p>
-      <h3 class="videoclips__title">${project.title}</h3>
-      <p class="videoclips__artist">${project.artist || ""}</p>
-      <p class="videoclips__role">${project.role}</p>
-      <p class="videoclips__synopsis">${project.synopsis}</p>
-    </div>
-  `)
-  );
 
-  const media = el(`
-    <button class="videoclips__media" type="button" aria-label="Ver ${project.title}">
-      ${imgOrPlaceholder(project.poster, project.title, project.title)}
-      <div class="videoclips__play" aria-hidden="true">
-        <div class="videoclips__play-inner"></div>
+  videoclips.forEach((project) => {
+    mount.appendChild(
+      el(`
+      <div class="videoclips__info">
+        <p class="videoclips__eyebrow">Videoclip · ${project.month || ""} ${project.year || ""}</p>
+        <h3 class="videoclips__title">${project.title}</h3>
+        <p class="videoclips__artist">${project.artist || ""}</p>
+        <p class="videoclips__role">${project.role || ""}</p>
+        <p class="videoclips__synopsis">${project.synopsis || ""}</p>
       </div>
-    </button>
-  `);
-  media.addEventListener("click", () => openLightbox(project));
-  mount.appendChild(media);
+    `)
+    );
+
+    const media = el(`
+      <button class="videoclips__media" type="button" aria-label="Ver ${project.title}">
+        ${imgOrPlaceholder(project.poster, project.title, project.title)}
+        <div class="videoclips__play" aria-hidden="true">
+          <div class="videoclips__play-inner"></div>
+        </div>
+      </button>
+    `);
+    media.addEventListener("click", () => openLightbox(project));
+    mount.appendChild(media);
+  });
 }
 
 // ----- Fashion: asymmetric grid -----
